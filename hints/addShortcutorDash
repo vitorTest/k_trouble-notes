@@ -1,0 +1,13 @@
+Sample with sublime-text.
+
+Being able to call Sublime Text from the Terminal by just typing sublime
+
+# sudo ln -s /opt/sublime_text_3/sublime_text /usr/bin/sublime
+
+Creating a launcher
+
+# sudo sublime /usr/share/applications/sublime.desktop
+
+Actually, there's a 'sublime_text.desktop', inside the sublime folder...
+I'll do not copy the content... Just past it in the 'sublime.desktop'
+created above.
