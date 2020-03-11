@@ -1,0 +1,9 @@
+1 - Change #AutoEnable=false to AutoEnable=true in the /etc/bluetooth/main.conf (notice new line is un-commented)
+2 - Unpair the headset
+3 - Restart the bluetooth service sudo /etc/init.d/bluetooth restart
+4 - Pair your headset again and connect it
+5 - Go to sound settings. From the output device tab you should now see the headset listed along with other output device like internal speakers
+6 - Choose it as the sound output device.
+
+
+ref.:https://askubuntu.com/a/761120/666578
